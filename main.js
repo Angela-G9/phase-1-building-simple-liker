@@ -3,6 +3,16 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('modal');
+
+  // If modal exists, ensure it starts hidden
+  if (modal) {
+      modal.classList.add('hidden');
+  } else {
+      console.error('Modal element not found!');
+  }
+});
 
 
 
